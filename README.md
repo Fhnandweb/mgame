@@ -1,2 +1,2 @@
 #游点GAME BASE
-##pc
+#PC
