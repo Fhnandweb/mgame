@@ -1,0 +1,78 @@
+div.t-title {
+  width: 100%
+}
+body{
+  background: #fff
+}
+div.t-title span.t-ic {
+  background: url("../img/icon/pao.gif") no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+
+div.t-title a {
+  font-size: 20px;
+  color: #222
+}
+div.t-title a:hover{
+  color: #f00;
+  text-decoration: none
+}
+div.t-title p {
+  color: #777
+}
+
+div.t-title .row {
+  border-bottom: 1px dashed #999
+}
+
+/* 帖区 */
+div.t-main{
+  width: 100%
+}
+div.t-main>div>span {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block; 
+}
+
+div.t-main div.t-con {
+  border-bottom: 1px solid #222;
+  width: 100%;
+}
+
+div.t-main div.t-con p {
+  width: 100%;
+  font-size: 1rem;
+  background: rgb(236, 197, 152);
+  border-bottom: 1px dashed #000
+}
+div.t-main div.t-con p{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  line-height: 5rem
+}
+div.t-main div.t-con p a:hover{
+  color: rgb(240, 15, 15);
+  text-decoration: none
+}
+div.t-main div.t-con p span{
+  display: inline-block;
+} 
+div.t-main div.t-con p span.spl{
+  width: 70%;
+}
+div.t-main div.t-con p span.spm{
+  width: 15%;
+}
+div.t-main div.t-con p span.spr{
+  width: 15%;
+}
+.fc{
+  color: #000
+}

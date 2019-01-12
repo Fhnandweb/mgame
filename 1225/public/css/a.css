@@ -1,0 +1,34 @@
+#grp{
+  position: relative;
+  top: 200px;left: 200px;
+}
+#grp>div img{
+  width: 200px;height:300px;
+
+}
+.grpic_1,.grpic_2,.grpic_3,.grpic_4{
+  position: absolute;
+  filter: grayscale(100%);
+  transition: all 0.2s linear
+}
+.grpic_1{
+  z-index: 1;
+}
+.grpic_2{
+  z-index: 2;
+  left:100px;
+}
+.grpic_3{
+  z-index: 3;
+  left:200px;
+}
+.grpic_4{
+  z-index: 4;
+  left:300px;
+}
+#grp>div:hover{
+  filter: none;
+  z-index: 50;
+  transition: all 0.3s linear;
+  transform: scale(1.1,1.1)
+}

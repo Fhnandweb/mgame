@@ -1,0 +1,26 @@
+#tab-main .tab-m ul li{
+  float: left;
+  width: 100px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+#tab-main .tab-m ul li:hover{
+  border: 1px solid #000;
+  transition: all .5s linear
+}
+
+#tab-main .tab-c div{
+  clear: both;
+  border: 1px solid #ccc;
+  display: none;
+  height: 200px;width: 300px;
+  position: relative;
+}
+#tab-main .tab-c div.active{
+  display: block
+}
+.cc{
+  background: url("../imgs/index/index.png") no-repeat;
+  width: auto;height:1660px;
+  background-position: 0 0;
+}

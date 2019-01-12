@@ -1,0 +1,107 @@
+
+/* 主贴 */
+div#landlord{
+  height: 300px;
+  width: 100%;
+  /* background: rgb(77, 204, 166) */
+}
+
+div.land-left,div.land-right{
+  display: inline-block;
+  overflow: hidden;
+}
+div.land-left{
+  height: 100%;
+  width: 20%;
+  background: #eee
+}
+div.land-left p{
+  width: 100%
+}
+div.land-left p img.head-frame{
+  width: 100%;height: 150px;
+  padding: 5px;
+  background: rgb(219, 77, 112);
+  display: block
+}
+div.land-right{
+  height: 100%;
+  width: 79%;
+  background: #789;
+  font-size: 16px
+}
+div.land-right p.c-title{
+  border-bottom: 1px dashed #222;
+}
+/* <!-- 发表评论区 --> */
+div.c-content{
+  width: 100%;
+}
+div.c-content .el{
+  width: 100%;
+  margin: 1rem
+}
+div.c-content .el textarea{
+  height: 8rem;width: 60%;
+  resize: none
+}
+.comm-d{
+  display: none;
+  transition: all .5s linear
+}
+.comm-a{
+  margin-top: 1rem;
+  transition: all .5s linear
+}
+span.ms{
+  color: #f00;
+  margin-left: 1rem
+}
+/* div.sub{
+  width: 100%;height: 20%;
+} */
+/* <!-- 评论楼层 --> */
+#floor{
+  width: 100%
+}
+#floor div.pop{
+  height: 160px;width: 100%;
+  background: rgb(75, 81, 130);
+  padding: 1rem;
+  border-bottom:1px dashed rgb(24, 22, 24)
+}
+#floor div.pop:first-child{
+  margin-top: 1rem
+}
+#floor div.pop:last-child{
+  margin-bottom: 1rem
+}
+#floor div.pop .pop-a{
+  height: 30px;
+  width: 100%
+}
+#floor div.pop .pop-a b{
+  color: #fff;font-size: 20px
+}
+#floor div.pop .pop-a span{
+  display: inline-block;
+  box-sizing: border-box
+}
+#floor div.pop .pop-a span:first-child{
+  width: 70%;
+  font-size: 1rem
+}
+#floor div.pop .pop-a span:nth-child(2){
+  width: 10%;
+  font-size: 15px;
+}
+#floor div.pop .pop-a span:last-child{
+  width: 15%;
+  font-size: 10px
+}
+#floor div.pop .pop-c{
+  width: 100%;
+  height: 100px;
+  background: #ccc;
+  padding: 1rem
+}

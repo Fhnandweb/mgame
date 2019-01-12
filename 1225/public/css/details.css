@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#d-header{
+  position: relative;
+}
+#d-header>.d-hc>img{
+  width: 100%;
+  height: 900px;
+  text-align: center
+}
+#d-header .d-body{
+  position: absolute;
+  top:340px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(50, 50, 50, 0.4);
+  width:70%;height: 1000px;
+  /* padding: 1rem */
+}
+#d-header .d-body>div:first-child{
+  background: #604999;
+  float: left;
+  height: 3rem;width: 100%;
+  line-height: 3rem;
+  color: #fff;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+#d-header .d-body>div>ul{
+  list-style: none;
+}
+#d-header .d-body>div>ul li{
+  float: left;
+  margin-left: 1rem
+}
+#d-header .d-body>ul li:first-child{
+  margin-left: 2rem
+}
+.d-bdiv{
+  width: 100%;height: 6rem;
+  background-color: rgba(60, 49, 99, 0.8);
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.d-bdiv>input{
+  margin-left: 2rem;
+  margin-top: 10px;
+  height: 1.5rem;
+  /* background: url("../img/search.png") no-repeat; */
+  
+}

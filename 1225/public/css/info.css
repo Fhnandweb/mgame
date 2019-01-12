@@ -1,0 +1,115 @@
+body{
+  background: #fff
+}
+.mcard,.mcard-body,.mcard-footer{
+  width: 100%
+} 
+.mcard-header{
+  font-size: 20px;
+  color: #444;
+  font-weight: bold
+}
+ .mcard-body{
+  height: 400px;
+  display: flex
+}
+.bleft,.bright{
+  /* border: 1px solid #000; */
+  height:100%;
+  display: inline-block
+}
+.bleft{
+  width:20%;
+  text-align: center
+}
+.bleft>img{
+  margin-top: 20px;
+  width: 150px;
+  height: 210px;
+}
+.bleft p{
+  width: 100%;
+  margin-top: 2rem;
+  height: 2rem;
+  line-height: 2rem
+}
+.bleft p>a{
+  display: inline-block;
+  width: 80%;
+  height: 100%;
+  background: #eea50a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px
+}
+.bright{
+  width: 80%;
+}  
+.rtop,.rmid,.rbot{
+  width: 100%;
+  /* border: 1px solid salmon; */
+  box-sizing: border-box;
+  padding: 1rem
+}
+.rtop{
+  height: 20%;
+  color: #333;
+  font-size: 32px;
+  font-weight: bold
+}
+.rtop>span:last-child{
+  font-size: 18px
+}
+.rtop b{
+  color: #f00
+}
+.rmid{
+  height: 40%
+}
+.rmid span{
+  display: inline-block
+}
+.hw{
+  width: 50%;
+  font-size: 16px;
+  color:#444
+}
+.rmid p,.rmid h5{
+  height: 33.3%;
+}
+.rmid h5{
+  color:#666
+}
+.rbot{
+  height: 40%;
+  color: #666;
+  font-size: 16px;
+  text-indent: 2rem;
+  border-top:1px dashed #999
+}
+.ic{
+  width: 20px;
+  height: 22px;
+  display: inline-block;
+  background: url("../img/icon/clock.png")no-repeat
+}
+.mcard-footer{
+  padding: 1rem;
+  height:350px;
+  /* border: 1px solid #000 */
+  background: #f5f5f5
+}
+.shi{
+  height: 10%;
+  font-size: 16px;
+  color: #555;
+  font-weight: bold
+}
+.sanwu{
+  height: 35%;
+}
+.mcard-footer span{
+  display: inline-block;
+  color: #999;
+  font-size: 16px
+}

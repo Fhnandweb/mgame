@@ -1,0 +1,36 @@
+
+.prmain{
+  width: 100%
+}
+.prmain p{
+  width: 100%;
+  padding-left: 15px;
+  margin: 1rem 0
+}
+.prx{
+  font-size: 20px;
+  font-weight: bold;
+  color: #333
+}
+.prt{
+  padding-left: 6px;
+}
+.prt>span{
+  color: #444;
+  font-weight: bold;
+  font-size: 16px
+}
+.prt>input{
+  width: 70%;
+  height: 2rem;
+}
+p.prc{
+  padding-left: 4rem
+}
+.prc textarea{
+  resize: none;
+  width: 90%
+}
+.prb button{
+  width: 150px
+}

@@ -1,0 +1,94 @@
+body{
+  background: #fff
+}
+.s1{
+  width: 100%;
+  /* border: 1px solid #000; */
+  height: 40rem;
+  position: relative;
+}
+.s1 .reg-d,.s1 .reg-d p{
+  width: 100%;
+  margin: 1.5rem 0;
+  height: 2rem;
+  line-height: 2rem
+}
+.s1 .reg-d p span{
+  display: inline-block;
+  height: 100%;
+}
+.s1 .reg-d p span:first-child{
+  width: 20%;
+  text-align: end;
+  font-weight: bold;
+  font-size: 1rem;
+  border-right: 1px solid salmon
+}
+.s1 .reg-d p span:nth-child(2){
+  width: 50%
+}
+.s1 .reg-d p span:nth-child(2) input{
+  display: inline-block;
+  width: 100%
+}
+.s1 .reg-d p span:nth-child(3){
+  width: 20%;
+  text-align: start;
+  color: #f00
+}
+/* 提交按钮 */
+.s1 .reg-d p.sub span:first-child{
+  border-right:0;
+}
+.sput input{
+  background: rgb(21, 173, 219);
+  color: #fff;
+  border-radius: 10%;
+  border: 0;
+  height: 2.5rem;
+}
+.logsucc{
+  width: 30%;
+  height: 9rem;
+  background: rgba(24, 55, 55, .8);
+  position: absolute;
+  top: 40%;left:45%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 25px;
+  display: none
+}
+.logsucc p{
+  width: 80%;
+  border-radius: 25px;
+  text-align: center;
+  height: 2rem;
+  line-height: 4rem;
+  margin: 0 auto;
+  transform: translateY(25%);
+  font-size: 21px;
+  font-weight: bold;
+  color: #fff
+}
+p.xi{
+  font-size: 2rem;border: 1px dashed salmon
+}
+p.li{
+  border: 1px dashed salmon
+}
+p.tologin{
+  text-align: end;
+  padding-right: 10rem
+}
+p.tologin a{
+  text-decoration: none;
+}
+p.tologin a:hover{
+  color: #f00
+}
+.logsucc>p>a{
+  text-decoration: none;
+  color: #fff
+}
+.logsucc>p>a:hover{
+  color: aquamarine
+}

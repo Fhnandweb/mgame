@@ -1,0 +1,86 @@
+#game{
+  position: relative;
+  width: 100%
+}
+#game .main{
+  position: relative;
+  width: 100%;
+  height: 415px;
+  margin: 15px 0 auto;
+}
+/* #game .main .title{
+  position: relative;
+  background: url("../imgs/game/game_title.png");
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+} */
+#game .main .pic{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  transform-style: preserve-3d;
+}
+#game .pic ul{
+  width:100%;
+  height: 100%; 
+  perspective: 800px;
+  position: relative;
+  left:0%; 
+}
+#game .pic ul li{
+  position: absolute;
+  top: 0;left:27%;
+  width:55%;
+  height: 400px; 
+  background: #000;
+  transform: translate3d(0,0,-950px) rotateY(0deg);
+  display: inline-block
+}
+#game .pic ul li img{
+  width: 100%;height: 100%;
+  opacity: 0.5;
+  /* border: 1px solid #000 */
+}
+#game .pic ul li.mid img{
+  opacity: 1;
+}
+#game .pic ul li.mid{
+  z-index: 9;
+  transform: translate3d(-3px,0,0) rotateY(0deg);
+  transition: all .5s linear;
+  position: absolute;
+  left: 24%;
+}
+#game .pic ul li.left{
+  transform: translate3d(-470px,0,-493px ) rotateY(55deg);
+  z-index: 3;
+  transition: all .5s linear;
+  left: 32%;
+}
+#game .pic ul li.right{
+  transform: translate3d(370px,0,-471px) rotateY(-60deg);
+  z-index: 3; 
+  transition: all .5s linear;
+  left: 25%;
+}
+/* #game .btn{
+  position: absolute;;
+} */
+#game p{
+  position: absolute;
+  width: 43px;height: 84px;
+  top:30%;
+  display: none
+}
+
+#game p.left{
+  left: 4%;
+  background: url("../img/swiper/left.png")
+}
+#game p.right{
+  left: 94%;
+  background-image: url("../img/swiper/right.png");
+}
+

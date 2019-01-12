@@ -1,0 +1,129 @@
+#newinfo{
+  position: relative;
+  z-index: 2;
+  width: 85%;
+}
+#newinfo .main{
+  width: 100%;
+  margin-left: 10px;
+}
+#newinfo .main .title{
+  position: relative;
+  top:0;
+  background: url("../img/sec2/6.png") no-repeat left;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  /* background-size: cover; */
+  height: 150px;
+  width: 100%;
+  opacity: 1;
+  transition: .5s;
+  margin-left: 10%
+}
+
+#newinfo .main .infolist ul{
+  overflow: hidden;
+}
+#newinfo .main .infolist ul li{
+  float: left;
+  position: relative;
+  top:0;
+  cursor: pointer;
+  width: 33%;
+  height: 213px;
+  min-width: 418px;
+  /* margin-left: 5px; */
+  background-repeat: no-repeat!important;
+  background-position-y: 17px!important;
+  transition: all .5s linear;
+}
+#newinfo .main .infolist ul li:hover{
+  background-position-y: 0!important;
+}
+/* li图浮动 */
+#newinfo .main .infolist ul li.l1{
+  background: url("../img/sec2/lol.png") 
+}
+#newinfo .main .infolist ul li.l2{
+  background: url("../img/sec2/juedi.png") 
+}
+#newinfo .main .infolist ul li.l3{
+  background: url("../img/sec2/NBA2K19.png") 
+}
+#newinfo .main .infolist ul li.l4{
+  background: url("../img/sec2/huangyeOL.png") 
+}
+#newinfo .main .infolist ul li.l5{
+  background: url("../img/sec2/wenming.png") 
+}
+#newinfo .main .infolist ul li.l6{
+  background: url("../img/sec2/shengpan.png") 
+}
+/* #newinfo .main .infolist ul li.l7{
+  background: url("../imgs/newinfo/p5.png") 
+}
+#newinfo .main .infolist ul li.l8{
+  background: url("../imgs/newinfo/p6.png") 
+} */
+/* 四条线 */
+#newinfo .main .infolist ul li i{
+  background:rgb(228, 95, 43);
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0; 
+  opacity: 0;
+}
+#newinfo .main .infolist ul li .i1{
+  top: 25px;
+  left: 10px;
+}
+#newinfo .main .infolist ul li .i2{
+  top: 10px;
+  left: 25px;
+}
+#newinfo .main .infolist ul li .i3{
+  top: 180px;
+  left: 9px;
+}
+#newinfo .main .infolist ul li .i4{
+  top: 9px;
+  left: 390px;
+}
+#newinfo .main .infolist ul li .i1,#newinfo .main .infolist ul li .i3{
+  width: 2px;height: 2px;
+}
+#newinfo .main .infolist ul li .i2,#newinfo .main .infolist ul li .i4{
+  width: 2px;height: 2px;
+}
+
+/* 四条线动画 */
+/* i1 i3 */
+@keyframes i1{
+  from {width: 0px}
+  to {width: 400px}
+}
+/* i2 i4 */
+@keyframes i2{
+  from {height: 0px}
+  to {height: 200px}
+}
+#newinfo .main .infolist ul li:hover .i1{
+  opacity: 1;
+  animation: i1 .3s  0s linear ;
+}
+#newinfo .main .infolist ul li:hover .i2{
+  opacity: 1;
+  animation: i2 .3s  0s linear ;
+}
+#newinfo .main .infolist ul li:hover .i3{
+  opacity: 1;
+  animation: i1 .3s  0s linear ;
+}
+#newinfo .main .infolist ul li:hover .i4{
+  opacity: 1;
+  animation: i2 .3s  0s linear ;
+}
+#newinfo .main .infolist ul li:hover i{
+  opacity: 1;
+  animation-fill-mode: forwards!important;
+}
